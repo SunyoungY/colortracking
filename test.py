@@ -49,7 +49,7 @@ while True:
     red(frame)
     blue(frame)
     # in case Red and Blue appears inverted in the display
-    # frame = cv2.cvtColor(result, cv2.COLOR_BGR2RGB)
+    # frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     
     # Display the frame
     cv2.imshow("FRAME", frame)
